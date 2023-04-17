@@ -2846,7 +2846,7 @@ figcaption {
   mix-blend-mode: normal;
   background-color: rgba(0, 0, 0, 0);
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6419e2cb82bd67688e521596_dark-shaded-bg.png");
+    url("assets/basic-assets/dark-shaded-bg.png");
   background-position: 0 0, 100%;
   background-size: auto, cover;
   background-clip: border-box;
@@ -2896,7 +2896,7 @@ figcaption {
 }
 
 .laptop-lid {
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6419e2cb82bd67df03521590_laptop-lid.png");
+  background-image: url("assets/images/mockups/laptop-lid.png");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -3103,27 +3103,6 @@ figcaption {
   margin-bottom: 5vh;
 }
 
-.img-slider-caloria-1 {
-  height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6419e9812fa5c017c93b4671_Calorie%20counter%20web_web1.png");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.img-slider-zepp-3 {
-  height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c0d57177dbc497d7a5517_sporttracker__thumbnail%20web%20light.png");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.img-slider-zepp-2 {
-  height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c0c9ac44da875a7e468d8_behance_zepp%20sporttracker_web_title.png");
-  background-position: 50%;
-  background-size: cover;
-}
-
 .project-external-link-motion {
   color: #959595;
   letter-spacing: 0;
@@ -3202,13 +3181,6 @@ figcaption {
   font-size: 31px;
   font-weight: 400;
   line-height: 120%;
-}
-
-.img-slider-zepp-4 {
-  height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c0cef13ab6ede4f4972c0_sporttracker__thumbnail%20web%20dark.png");
-  background-position: 50%;
-  background-size: cover;
 }
 
 .arrow-external-link {
@@ -3541,7 +3513,7 @@ figcaption {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   -webkit-text-fill-color: inherit;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6419f133fe8225e4c64e6242_webflow%20bg%20base.svg");
+  background-image: url("assets/images/icons/webflow\ bg\ base.svg");
   background-position: 0 0;
   background-size: cover;
   background-clip: border-box;
@@ -4382,23 +4354,52 @@ figcaption {
   top: 7px;
 }
 
+.img-slider-caloria-1 {
+  height: 100%;
+  background-image: url("assets/images/calorie-app/Calorie\ counter\ web_web1.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.img-slider-caloria-2 {
+  height: 100%;
+  background-image: url("assets/images/calorie-app/Calorie\ counter\ web_web2.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.img-slider-caloria-3 {
+  height: 100%;
+  background-image: url("assets/images/calorie-app/Calorie\ counter\ web_web3.png");
+
+  background-position: 50%;
+  background-size: cover;
+}
+
 .img-slider-caloria-4 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641bfcb65b92d36d1f39bff2_Calorie%20counter_web7.png");
+  background-image: url("assets/images/calorie-app/Calorie\ counter_web7.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.img-slider-caloria-5 {
+  height: 100%;
+  background-image: url("assets/images/calorie-app/Calorie\ counter_web8.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-caloria-6 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641bfcb7af272977689923aa_Calorie%20counter_web6.png");
+  background-image: url("assets/images/calorie-app/Calorie\ counter_web6.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-caloria-7 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641bfcb86de2d650a02e3c81_Calorie%20counter%20web_web5.png");
+  background-image: url("assets/images/calorie-app/Calorie\ counter\ web_web5.png");
   background-position: 50%;
   background-size: cover;
 }
@@ -4411,7 +4412,28 @@ figcaption {
 
 .img-slider-zepp-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c0cef6de2d6bbd62f3018_sporttracker__thumbnail%20web%20light.png");
+  background-image: url("assets/images/sport-tracker/behance_zepp\ sporttracker_web_title.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.img-slider-zepp-3 {
+  height: 100%;
+  background-image: url("assets/images/sport-tracker/sporttracker__thumbnail\ web\ light.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.img-slider-zepp-2 {
+  height: 100%;
+  background-position: 50%;
+  background-image: url("assets/images/sport-tracker/sporttracker__thumbnail\ web\ dark.png");
+  background-size: cover;
+}
+
+.img-slider-zepp-4 {
+  height: 100%;
+  background-image: url("assets/images/sport-tracker/behance_zepp\ sporttracker_web.png");
   background-position: 50%;
   background-size: cover;
 }
@@ -4431,27 +4453,6 @@ figcaption {
   color: #33b1d2;
 }
 
-.img-slider-caloria-2 {
-  height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641bfcb7ab2581cc0c8ebc74_Calorie%20counter%20web_web2.png");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.img-slider-caloria-3 {
-  height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641bfcb8c2f5a9134fc8c92f_Calorie%20counter%20web_web3.png");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.img-slider-caloria-5 {
-  height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641bfcb6cda870b720f4bb7b_Calorie%20counter_web8.png");
-  background-position: 50%;
-  background-size: cover;
-}
-
 .project-category-label-motion {
   color: #00ffa9;
 }
@@ -4462,77 +4463,77 @@ figcaption {
 
 .img-slider-motivapp-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c1a4db9a4f331c17e5e51_behance_motivapp_thumbnail.png");
+  background-image: url("assets/images/motivapp/behance_motivapp_thumbnail.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-motivapp-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c1a4dab2581cd6190a435_behance_motivapp_screen%20student.png");
+  background-image: url("assets/images/motivapp/behance_motivapp_screen\ student.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-motivapp-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c1a4deeb2f76508913359_behance_motivapp_screen%20teacher.png");
+  background-image: url("assets/images/motivapp/behance_motivapp_screen\ teacher.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-motivapp-4 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c1d2868c8e4cafcb36059_641c1c9f154bf634318334.gif");
+  background-image: url("assets/images/motivapp/motivapp_promo_gif.gif");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-keleszto-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c2068d3708edb6b73760f_behance_keleszto%20redesign_web_015_min.png");
+  background-image: url("assets/images/keleszto/behance_keleszto\ redesign_web_015_min.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-keleszto-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c206829354a4f43388e56_behance_keleszto%20redesign_web_01_min.png");
+  background-image: url("assets/images/keleszto/behance_keleszto\ redesign_web_01_min.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-keleszto-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c206a5dedc4c2a36216ea_behance_keleszto%20redesign_web_02_min.png");
+  background-image: url("assets/images/keleszto/behance_keleszto\ redesign_web_02_min.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-keleszto-4 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c206a91253a675e648d87_behance_keleszto%20redesign_web_03_min.png");
+  background-image: url("assets/images/keleszto/behance_keleszto\ redesign_web_03_min.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-vitamin-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c25180d930721c940bf7e_behance%20dataviz%20vitamin%20web.png");
+  background-image: url("assets/images/vitamin-calc/behance\ dataviz\ vitamin\ web.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-vitamin-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c258e381534446d97ab28_vitaminviz%20web_thumbnail%20copy%202.png");
+  background-image: url("assets/images/vitamin-calc/vitaminviz\ web_thumbnail\ copy\ 2.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-vitamin-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c258e7a80ebb25dd6bc45_vitaminviz%20web_thumbnail%20copy%203.png");
+  background-image: url("assets/images/vitamin-calc/vitaminviz\ web_thumbnail\ copy\ 3.png");
   background-position: 50%;
   background-size: cover;
 }
@@ -4563,21 +4564,21 @@ figcaption {
 
 .img-slider-electricity-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c2518d3708ea4f273bf62_behance%20dataviz%20electricity%20web-06.png");
+  background-image: url("assets/images/dataviz/behance\ dataviz\ electricity\ web-06.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-electricity-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c251832430fa641fd9f55_behance%20dataviz%20electricity%20web-05.png");
+  background-image: url("assets/images/dataviz/behance\ dataviz\ electricity\ web-05.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-electricity-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c2518eeb2f72a1391f87c_behance%20dataviz%20electricity%20web-07.png");
+  background-image: url("assets/images/dataviz/behance\ dataviz\ electricity\ web-07.png");
   background-position: 50%;
   background-size: cover;
 }
@@ -4590,85 +4591,91 @@ figcaption {
 
 .img-slider-pm-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641f4be4b87769d72973bdc1_behance_penzmuzeum_web-07.png");
+  background-image: url("assets/images/penzmuzeum/behance_penzmuzeum_web-07.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-pm-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641f4be4697d5644b02cfa60_behance_penzmuzeum_web-06.png");
+  background-image: url("assets/images/penzmuzeum/behance_penzmuzeum_web-06.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-pm-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641f4be3885ad97117f97325_behance_penzmuzeum_web-05.png");
+  background-image: url("assets/images/penzmuzeum/behance_penzmuzeum_web-05.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-pm-4 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641f4be46bd09b7de95c571f_behance_penzmuzeum-web_02-05.png");
+  background-image: url("assets/images/penzmuzeum/behance_penzmuzeum-web_02-05.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-padlas-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641f4e195d272943d5521898_behance_padlas_behance-min.png");
+  background-image: url("assets/images/padlas/behance_padlas_behance-min.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-padlas-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641f4e185d2729177a52188d_behance_padlas_behance%2003-min.png");
+  background-image: url("assets/images/padlas/behance_padlas_behance\ 03-min.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-paadlas-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641f4e19ce09cd0eb040fad5_behance_padlas_behance%2004-min.png");
+  background-image: url("assets/images/padlas/behance_padlas_behance\ 04-min.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-padlas-4 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641f4e1af2602a2953d9cd85_behance_padlas_behance%2005-min.png");
+  background-image: url("assets/images/padlas/behance_padlas_behance\ 05-min.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-kripto-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641ffdeff2602a0ad3e48366_crypto_web-09.png");
+  background-image: url("assets/images/kripto/crypto_web-09.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-kripto-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c1a4dab2581cd6190a435_behance_motivapp_screen%20student.png");
+  background-image: url("assets/images/kripto/kripto_reszlet_03_elony.gif");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-kripto-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c1a4deeb2f76508913359_behance_motivapp_screen%20teacher.png");
+  background-image: url("assets/images/kripto/kripto_reszlet_03_hatrany.gif");
   background-position: 50%;
   background-size: cover;
 }
 
-.img-slider-kripto-4,
+.img-slider-kripto-4 {
+  height: 100%;
+  background-image: url("assets/images/kripto/kripto_reszlet_05.gif");
+  background-position: 50%;
+  background-size: cover;
+}
+
 .img-slider-kripto-5 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/641c1d2868c8e4cafcb36059_641c1c9f154bf634318334.gif");
+  background-image: url("assets/images/kripto/kripto_reszlet_04.gif");
   background-position: 50%;
   background-size: cover;
 }
@@ -4797,126 +4804,128 @@ figcaption {
 
 .img-slider-korzo-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6423db4103f4434c5a4e3a17_behance_eskuvokorzo%20redesign_behance.png");
+  background-image: url("assets/images/eskuvokorzo/behance_eskuvokorzo\ redesign_behance.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-korzo-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6423db3ca59a99621e3bff39_korzo_web_01.png");
+  background-image: url("assets/images/eskuvokorzo/korzo_web_01.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-korzo-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6423d5ebcd42d46cdaf58aeb_korzo_web_02.png");
+  background-image: url("assets/images/eskuvokorzo/korzo_web_02.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-korzo-4 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6423db3c21de6a865fa21537_korzo_web_03.png");
+  background-image: url("assets/images/eskuvokorzo/korzo_web_03.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-charge-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6429a1d2f5406661d1763252_behance_car%20charge%20app_web1.png");
+  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web1.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-charge-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6429a1d170b4df0f76505791_behance_car%20charge%20app_web3.png");
+  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web3.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-charge-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6429a1d1c388edfb867a4bd6_behance_car%20charge%20app_web2.png");
+  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web2.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-charge-4 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6429a1d226a472e50ebeb890_behance_car%20charge%20app_web4.png");
+  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web4.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-1 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/64380231d9af295f8177e261_behance%20top%20(1).png");
+  background-image: url("assets/images/triptailor/behance_thumbmail.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-2 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/643d209bf9187e800dae239b_behance%20travel%20app_web1.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web1.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-charge-3-copy {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6429a1d1c388edfb867a4bd6_behance_car%20charge%20app_web2.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web2.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-3 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/643d209b9868c1a9fc7306f5_behance%20travel%20app_web2.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web3.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-4 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/643d209aa488892533ea6705_behance%20travel%20app_web3.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web1.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-5 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/643d209b830acf383ee1385b_behance%20travel%20app_web4.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web4.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-6 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/643802324214ae53e2295200_behance%20travel%20app_web2.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web2.png");
+
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-7 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/643802322c0e66447687fa42_behance%20travel%20app_web4.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web4.png");
+
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-8 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/643d209bde401177ea732569_behance%20travel%20app_web7.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web7.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-9 {
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/643d209b0069814b1c7b511f_behance%20travel%20app_web8.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web8.png");
   background-position: 50%;
   background-size: cover;
 }
@@ -5547,7 +5556,7 @@ figcaption {
   .intro-section {
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-      url("https://uploads-ssl.webflow.com/6419dd48b9d138f6964f2b91/6419e2cb82bd67688e521596_dark-shaded-bg.png");
+      url("assets/basic-assets/dark-shaded-bg.png");
     background-position: 0 0, 50% 0;
     background-size: auto, cover;
     padding-top: 6vw;
