@@ -4624,6 +4624,12 @@ figcaption {
   background-size: cover;
 }
 
+.img-slider-pm-5 {
+  height: 100%;
+  background-position: 50%;
+  background-size: cover;
+}
+
 .img-slider-padlas-2 {
   height: 100%;
   background-image: url("assets/images/padlas/behance_padlas_behance\ 03-min.png");
@@ -4654,28 +4660,28 @@ figcaption {
 
 .img-slider-kripto-2 {
   height: 100%;
-  background-image: url("assets/images/kripto/kripto_reszlet_03_elony.gif");
+  /* background-image: url("assets/images/kripto/kripto_reszlet_03_elony.gif"); */
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-kripto-3 {
   height: 100%;
-  background-image: url("assets/images/kripto/kripto_reszlet_03_hatrany.gif");
+  /* background-image: url("assets/images/kripto/kripto_reszlet_03_hatrany.gif"); */
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-kripto-4 {
   height: 100%;
-  background-image: url("assets/images/kripto/kripto_reszlet_05.gif");
+  /* background-image: url("assets/images/kripto/kripto_reszlet_05.gif"); */
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-kripto-5 {
   height: 100%;
-  background-image: url("assets/images/kripto/kripto_reszlet_04.gif");
+  /* background-image: url("assets/images/kripto/kripto_reszlet_04.gif"); */
   background-position: 50%;
   background-size: cover;
 }
@@ -4857,10 +4863,16 @@ figcaption {
   background-position: 50%;
   background-size: cover;
 }
+.img-slider-charge-5,
+.img-slider-charge-6 {
+  height: 100%;
+  background-position: 50%;
+  background-size: cover;
+}
 
 .img-slider-travel-1 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance_thumbmail.png");
+  /* background-image: url("assets/images/triptailor/behance_thumbmail.png"); */
   background-position: 50%;
   background-size: cover;
 }
