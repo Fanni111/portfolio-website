@@ -4484,7 +4484,7 @@ figcaption {
 
 .img-slider-motivapp-4 {
   height: 100%;
-  background-image: url("assets/images/motivapp/motivapp_promo_gif.gif");
+  /* background-image: url("assets/images/motivapp/motivapp_promo_gif.gif"); */
   background-position: 50%;
   background-size: cover;
 }
@@ -4619,7 +4619,7 @@ figcaption {
 
 .img-slider-padlas-1 {
   height: 100%;
-  background-image: url("assets/images/padlas/behance_padlas_behance-min.png");
+  background-image: url("assets/images/padlas/behance_padlas_behance-min.webp");
   background-position: 50%;
   background-size: cover;
 }
@@ -4632,21 +4632,21 @@ figcaption {
 
 .img-slider-padlas-2 {
   height: 100%;
-  background-image: url("assets/images/padlas/behance_padlas_behance\ 03-min.png");
+  background-image: url("assets/images/padlas/behance_padlas_behance\ 03-min.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-paadlas-3 {
   height: 100%;
-  background-image: url("assets/images/padlas/behance_padlas_behance\ 04-min.png");
+  background-image: url("assets/images/padlas/behance_padlas_behance\ 04-min.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-padlas-4 {
   height: 100%;
-  background-image: url("assets/images/padlas/behance_padlas_behance\ 05-min.png");
+  background-image: url("assets/images/padlas/behance_padlas_behance\ 05-min.webp");
   background-position: 50%;
   background-size: cover;
 }
@@ -4872,7 +4872,7 @@ figcaption {
 
 .img-slider-travel-1 {
   height: 100%;
-  /* background-image: url("assets/images/triptailor/behance_thumbmail.png"); */
+  background-image: url("assets/images/triptailor/behance_thumbmail.png");
   background-position: 50%;
   background-size: cover;
 }
