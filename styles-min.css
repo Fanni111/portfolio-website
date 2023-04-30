@@ -4843,78 +4843,72 @@ figcaption {
   background-size: cover;
 }
 
-.img-slider-charge-2 {
-  height: 100%;
-  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web3.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
+.img-slider-charge-2,
 .img-slider-charge-3 {
   height: 100%;
-  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web2.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-charge-4 {
   height: 100%;
-  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web4.webp");
+  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web3.webp");
   background-position: 50%;
   background-size: cover;
 }
-.img-slider-charge-5,
+
+.img-slider-charge-5 {
+  height: 100%;
+  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web2.webp");
+  background-position: 50%;
+  background-size: cover;
+}
+
 .img-slider-charge-6 {
   height: 100%;
+  background-image: url("assets/images/green-charge-app/behance_car\ charge\ app_web4.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-1 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance_thumbmail.png");
+  background-image: url("assets/images/triptailor/behance_thumbmail.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-2 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web1.png");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.img-slider-charge-3-copy {
-  height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web2.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web1.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-3 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web3.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web2.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-4 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web1.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web3.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-5 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web4.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web4.webp");
   background-position: 50%;
   background-size: cover;
 }
 
 .img-slider-travel-6 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web2.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web5.webp");
 
   background-position: 50%;
   background-size: cover;
@@ -4922,7 +4916,7 @@ figcaption {
 
 .img-slider-travel-7 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web4.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web6.webp");
 
   background-position: 50%;
   background-size: cover;
@@ -4930,16 +4924,16 @@ figcaption {
 
 .img-slider-travel-8 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web7.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web7.webp");
   background-position: 50%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .img-slider-travel-9 {
   height: 100%;
-  background-image: url("assets/images/triptailor/behance\ travel\ app_web8.png");
+  background-image: url("assets/images/triptailor/behance\ travel\ app_web8.webp");
   background-position: 50%;
-  background-size: cover;
+  background-size: contain;
 }
 
 @media screen and (min-width: 1920px) {
@@ -5567,8 +5561,6 @@ figcaption {
 
   .intro-section {
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-      url("assets/basic-assets/dark-shaded-bg.png");
     background-position: 0 0, 50% 0;
     background-size: auto, cover;
     padding-top: 6vw;
