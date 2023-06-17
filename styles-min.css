@@ -4468,11 +4468,16 @@ figcaption {
   background-size: cover;
 }
 
+.img-slider-motivapp-2 iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .img-slider-motivapp-2 {
   height: 100%;
-  background-image: url("assets/images/motivapp/behance_motivapp_screen\ student.png");
+  /*background-image: url("assets/images/motivapp/behance_motivapp_screen\ student.png");
   background-position: 50%;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .img-slider-motivapp-3 {
