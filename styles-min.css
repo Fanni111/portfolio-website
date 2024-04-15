@@ -3094,6 +3094,7 @@ figcaption {
 .project-card.card-0,
 .project-card.card-12,
 .project-card.card-13,
+.project-card.card-14,
 .project-card.card-11,
 .project-card.card-6,
 .project-card.card-7,
@@ -4353,6 +4354,27 @@ figcaption {
   line-height: 150%;
   position: relative;
   top: 7px;
+}
+
+.img-slider-hellomommy-1 {
+  height: 100%;
+  background-image: url("assets/images/hellomommy/hellomommy_web1.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.img-slider-hellomommy-2 {
+  height: 100%;
+  background-image: url("assets/images/hellomommy/hellomommy_web2.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.img-slider-hellomommy-3 {
+  height: 100%;
+  background-image: url("assets/images/hellomommy/hellomommy_web3.png");
+  background-position: 50%;
+  background-size: cover;
 }
 
 .img-slider-caloria-1 {
